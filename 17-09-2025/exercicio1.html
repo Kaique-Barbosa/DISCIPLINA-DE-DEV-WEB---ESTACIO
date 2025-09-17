@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercicio 1</title>
+</head>
+<body>
+    <h3>Campos para formulários</h3>
+    <form action="" method="get" class="formulario">
+        <label for="">Usuario: </label>
+        <input type="text" placeholder="Insira seu usuario">
+        <label for="">Senha: </label>
+        <input type="password" placeholder="Insira a senha">
+        
+        <!--  --------inputs de checkbox  -------------->
+        <section class="boxCheckbox">
+            <div>
+                <input type="checkbox" name="curso" id=""> 
+                <label for="">Estudar</label>
+            </div>
+            <div>
+                <input type="checkbox" name="curso" id=""> 
+                <label for="">Academia</label>
+            </div>
+            <div>
+                <input type="checkbox" name="curso" id=""> 
+                <label for="">Viajar</label>
+            </div>
+            <!--  --------inputs de radio  -------------->
+        <section class="boxCheckbox">
+            <div>
+                <input type="radio" name="curso" id=""> 
+                <label for="">ADS</label>
+            </div>
+            <div>
+                <input type="radio" name="curso" id=""> 
+                <label for="">Redes</label>
+            </div>
+            <div>
+                <input type="radio" name="curso" id=""> 
+                <label for="">Matematica</label>
+            </div>
+        </section>
+
+        <button type="reset">limpar</button>
+        <br>
+        <button type="submit" onclick="alert('Cliclou no botão')">enviar</button>
+    </form>
+</body>
+</html>
